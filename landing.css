@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url("https://thumbs.dreamstime.com/b/drops-water-spilled-light-pink-surface-drops-water-spilled-light-pink-surface-187131539.jpg"); */
+  background-color: rgb(243, 228, 243);
+  }
+ 
+header#header{
+  position: sticky;
+  top: 0px;
+  padding-bottom: 0px;
+  margin-top: 20px;
+  height:20px;
+  padding:40px;
+  display:flex;  
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  background-color: rgb(243, 228, 243); 
+}
+
+ul{
+  list-style-type: none;
+  padding-top: 3px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+a.nav-link{
+  color: black;
+  
+} 
+
+div.nav-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+.slogan{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input#email.subscribe{
+  padding: 5px;
+  width: 45%;
+
+}
+
+input#submit.btn{
+  padding: 5px;
+
+}
+
+.Video{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content:center ;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+div.sub{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content:center ;
+}
+
+.logo {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+#Promos{
+  height: fit-content;
+}
+
+#header-img {
+  width: 90px;
+  
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 4px solid pink;
+  border-radius: 3px;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+h2{
+  background-color: rgb(243, 228, 243);
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+
+@media(max-width: 500px) {
+  body{
+    flex-wrap:wrap;
+  }
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content:center
+}
+
+footer{
+  border:2px solid pink;
+  padding-top: 20px;
+
+}
+
+span{
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color:black;
+}
+
+input#text{
+  width:50%;
+}
